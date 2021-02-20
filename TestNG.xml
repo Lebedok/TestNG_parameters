@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="First Test Suite">
+    <test name="First Test">
+        <parameter name="username" value="wrongEmail"></parameter>
+        <parameter name="password" value="invalidPassword"></parameter>
+        <classes>
+            <class name="Selenium.TestNG.Parameterization"></class>
+
+        </classes>
+
+    </test>
+
+
+</suite>
